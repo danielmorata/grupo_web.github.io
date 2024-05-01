@@ -1,0 +1,101 @@
+h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+}
+h2 {
+	font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header_home {
+	/* Se añaden propiedades al header de la pagina index*/
+	overflow: hidden;
+	background-color: blue;
+	border: 1px solid;
+	border-color: black;
+	width: 100%;
+	height: 125px;
+}
+#img_rostecnica {
+	/* Se pone la imagen del logo a la izquierda*/
+	position: relative;
+	float: left;
+}
+#h1_RosTecnica {
+	/* Se pone el contacto telefonico a la derecha*/
+	top: 60px;
+	float: right;
+	position: relative;
+	color: white;
+}
+#nav_index {
+	/* Propiedades generales dentro del nav*/
+	margin: auto;
+	width: 100%;
+	height: 55px;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: lightblue;
+	border: 2px solid black;
+}
+.nav li {
+	/* Se quitan los · a los li*/
+	list-style: none;
+}
+.nav li a {
+	/* Se aplican las propiedades a los a dentro de la classe nav*/
+	background-color: aquamarine;
+	color: blanchedalmond;
+	text-decoration: none;
+	padding: 5px 5px;
+	display: block;
+	text-align: center;
+}
+.nav li a:hover {
+	/* Se cambia el color de las pestañas al pasar el mouse*/
+	background-color: lime;
+}
+.nav > li {
+	/* Se ponen los li en horizontal*/
+	float:right;
+}
+#section_index {
+	/*Propiedades section del index*/
+	border: 2px solid black;
+	width: 49%;
+	height: 1000px;
+	float: left;
+	background-color: blueviolet;
+}
+#ordenador-personal {
+	width: 550px;
+	height: 225px;
+	padding: 5px 5px;
+}
+#aside_index { 
+	/*Propiedades aside del index*/
+	border: 2px solid black;
+	width: 50%;
+	height: 1000px;
+	float: right;
+	background-color: violet;
+}
+#footer_index {
+	border: 2px solid black;
+	width: 100%;
+	height: 500px;
+	background-color: red;
+	bottom: 1200px;
+}
+/*Estilo pagina formulario*/
+#formulario {
+	text-align: center;
+	background-color: blanchedalmond;
+}
+
+.Label_formulario {
+	font-family: 'Courier New', Courier, monospace;
+}
+.Imput_formulario {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
